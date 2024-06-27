@@ -57,7 +57,7 @@ Os eventos de clique são usados para interagir com os elementos da interface, c
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/saint-seiya-the-lost-canvas-frontend.git
+   git clone https://github.com/AguinaldoBorges/saint-seiya-the-lost-canvas-frontend.git
    ```
 
 2. **Navegue até o diretório do projeto:**
