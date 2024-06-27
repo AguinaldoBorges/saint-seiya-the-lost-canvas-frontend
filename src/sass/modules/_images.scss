@@ -1,0 +1,50 @@
+.logo-top {
+    width: 150px;
+}
+
+.list-chars-img {
+    width: 70px;
+    height: 70px;
+    border: solid #8f8d8d 1px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 2px;
+    background-color: $light;
+    object-fit: cover;
+
+    &:hover {
+        background-color: $secondary;
+        border-color: $secondary;
+
+    }
+}
+
+// Media Queries
+@media (max-width: 1200px) {
+    .list-chars-img {
+        width: 250px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 992px) {
+    .list-chars-img {
+        width: 250px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .list-chars-img {
+        width: 220px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .list-chars-img {
+        width: 120px;
+        height: 120px;
+    }
+}

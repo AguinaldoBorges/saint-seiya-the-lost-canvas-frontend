@@ -1,0 +1,18 @@
+@keyframes move-background {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 90% 0;
+    }
+}
+
+#chars-container {
+    background: url('../../assets/bg-chars.jpg') repeat-x;
+    background-size: cover;
+    background-color: #252525b7;
+    background-blend-mode: overlay;
+
+    animation: move-background 10s linear infinite;
+}

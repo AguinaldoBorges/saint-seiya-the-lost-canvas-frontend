@@ -1,0 +1,45 @@
+@import 'variables';
+@import 'layout';
+
+
+.card {
+    @extend %flexbox;
+    align-items: center;
+    background-color: $primary;
+    opacity: .9;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card ul {
+    text-align: start;
+    list-style: none;
+}
+
+.card ul li {
+    color: $light;
+}
+
+
+.card ul li h2 {
+    color: $light;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.card ul li a {
+    color: $dark;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background-color: $warning;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.card img {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

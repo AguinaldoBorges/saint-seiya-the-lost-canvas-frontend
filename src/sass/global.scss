@@ -1,0 +1,13 @@
+@import './modules/variables';
+@import './modules/menu';
+@import './modules/borders';
+@import './modules/layout';
+@import './modules/priority';
+@import './modules/tipography';
+@import './modules/colors';
+@import './modules/images';
+@import './modules/cards';
+
+html {
+    scroll-behavior: smooth;
+}

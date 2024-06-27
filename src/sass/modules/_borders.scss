@@ -1,0 +1,36 @@
+@import 'variables';
+
+.bd-primary {
+    border-radius: 5px;
+    border: solid $primary 1.5px;
+}
+
+.bd-secondary {
+    border-radius: 5px;
+    border: solid $secondary 1.5px;
+}
+
+.bd-success {
+    border-radius: 5px;
+    border: solid $success 1.5px;
+}
+
+.bd-warning {
+    border-radius: 5px;
+    border: solid $warning 1.5px;
+}
+
+.bd-danger {
+    border-radius: 5px;
+    border: solid $danger 1.5px;
+}
+
+.bd-light {
+    border-radius: 5px;
+    border: solid $light 1.5px;
+}
+
+.bd-dark {
+    border-radius: 5px;
+    border: solid $dark 1.5px;
+}

@@ -1,0 +1,59 @@
+@import 'variables';
+
+// Cores
+
+.txt-primary {
+    color: $primary;
+}
+
+.txt-secondary {
+    color: $secondary;
+}
+
+.txt-success {
+    color: $success;
+}
+
+.txt-warning {
+    color: $warning;
+}
+
+.txt-danger {
+    color: $danger;
+}
+
+.txt-light {
+    color: $light;
+}
+
+.txt-dark {
+    color: $dark;
+}
+
+.bg-primary {
+    background-color: $primary;
+}
+
+.bg-secondary {
+    background-color: $secondary;
+}
+
+.bg-success {
+    background-color: $success;
+}
+
+.bg-warning {
+    background-color: $warning;
+}
+
+.bg-danger {
+    background-color: $danger;
+}
+
+.bg-light {
+    background-color: $light;
+}
+
+.bg-dark {
+    background-color: $dark;
+}

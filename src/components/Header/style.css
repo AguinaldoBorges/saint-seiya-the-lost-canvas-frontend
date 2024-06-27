@@ -1,0 +1,24 @@
+#header {
+    padding: 0;
+    margin: 0;
+    width: calc(100vw - 15px);
+}
+
+#header div h1 {
+    color: #ffffffee;
+}
+
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    #header {
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+    }
+}
